@@ -14,7 +14,7 @@ function Todo({todos,completeTodo,removeTodo,updateTodo}) {
         updateTodo(edit.id,value)
         setEdit({
             id :null,
-            vlaue:''
+            value:''
         })
     }
     if(edit.id){
